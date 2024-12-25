@@ -21,6 +21,7 @@ public class main {
         fourseason.clean(daisy);
         fourseason.fly();
         fourseason.glide();
+        fourseason.beCrispy();
 
         donald.clean(new Cow());
     }
