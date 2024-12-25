@@ -10,4 +10,7 @@ public class PekingDuck extends Duck{
     void clean(Animal animal) {
         System.out.println("พี่แจ๊คครับ.........");
     }
+    public void beCrispy(){
+        System.out.println("Grob grob! (sound effect)");
+    }
 }
