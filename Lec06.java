@@ -20,6 +20,7 @@ public class main {
         Duck fourseason = new pekingDuck("4ss");
         fourseason.clean(daisy);
         fourseason.fly();
+        fourseason.glide();
 
         donald.clean(new Cow());
     }
