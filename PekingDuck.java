@@ -2,6 +2,9 @@ public class PekingDuck extends Duck{
     pekingDuck(String name){
         super(name);
     }
+    void beCrispy(){
+        System.out.println("Grob grob! (sound effect)");
+    }
 
     @Override
     void clean(Animal animal) {
