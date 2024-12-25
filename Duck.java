@@ -22,6 +22,9 @@ public class Duck extends Animal implements Flyable{
     void clean(Animal animal){
         System.out.println(this.toString()+" is cleaning"+animal);
     }
+    void beCrispy(){
+        System.out.println("Grob grob! (sound effect)");
+    }
     public String toString(){
         return "เป็ด: "+this.name;
     }
